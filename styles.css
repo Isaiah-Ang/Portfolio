@@ -1,0 +1,64 @@
+/* Reset all Styles */
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body, html{
+  height: 100%;
+}
+
+/* Font Sizes */
+h1{
+  font-size: 80px;
+  font-family: forma-djr-micro, sans-serif;
+  font-weight: 700;
+}
+
+h3{
+  font-size: 30px;
+  font-family: forma-djr-micro, sans-serif;
+  font-weight: 520;
+}
+
+/* Button */
+button{
+  font-family: forma-djr-micro, sans-serif;
+  font-weight: 520;
+  border: 2px solid grey;
+  border-radius: 30px;
+  padding: 10px 40px;
+}
+.aboutme{
+  margin-top: 10px;
+  background: rgb(0,0,0,0);
+  color: white;
+  font-size: 15px;
+  transition-duration: 0.5s;
+}
+
+.aboutme:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/* Hero Image */
+.hero-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Photos/HeroImage.jpg");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text{
+  text-align: left;
+  padding: 18% 0;
+  padding-left: 80px;
+  color: white;
+}
