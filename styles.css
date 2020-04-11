@@ -22,13 +22,41 @@ h3{
   font-weight: 520;
 }
 
+/* Navigation Bar */
+.nav{
+  list-style-type: none;
+  top:0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  z-index: 999;
+  background: rgba(0,0,0,0);
+}
+
+li{
+  margin-right: 50px;
+}
+
+li a{
+  float: right;
+  display: block;
+  font-family: upgrade-lights, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  padding: 25px 25px;
+  color: white;
+}
+
 /* Button */
 button{
   font-family: forma-djr-micro, sans-serif;
   font-weight: 520;
   border: 2px solid grey;
   border-radius: 30px;
-  padding: 10px 40px;
+  padding: 10px 50px;
 }
 .aboutme{
   margin-top: 10px;
@@ -46,7 +74,7 @@ button{
 
 /* Hero Image */
 .hero-image{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Photos/HeroImage.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("Photos/HeroImage.JPG");
 
   height: 100%;
 
@@ -59,6 +87,6 @@ button{
 .hero-text{
   text-align: left;
   padding: 18% 0;
-  padding-left: 80px;
+  padding-left: 120px;
   color: white;
 }
